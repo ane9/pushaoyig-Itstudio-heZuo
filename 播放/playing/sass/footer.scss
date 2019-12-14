@@ -1,0 +1,172 @@
+.footer{
+    height: 267px+60px+12px;
+    background:#F7F9FB;
+    padding-top: 40px;
+    .footercontain{
+        width: 1162px;height: 327px;
+        margin: auto;
+        .footerOne{
+            width: 1160px;height: 112px;
+            margin-bottom: 40px;
+            display: flex;
+            .footerOneL{
+                width: 360PX;height: 112PX;
+                padding-right: 40px;
+                border-right: 3px solid  #9B9EA7 ;
+                ul{
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    li{
+                        width: 120px;height: 14px;
+                        margin-bottom: 16px;font-size:14px;
+                        font-family: PingFangSC-Medium;
+                        font-weight:400;
+                        color:rgba(3,3,4,1);
+                    }
+                }
+            }
+            .footerOneC{
+                width: 360PX;height: 112PX;
+                padding-right: 40px;margin-left: 40px;
+                border-right: 3px solid  #9B9EA7 ;
+                ul{
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    li{
+                        width: 120px;height: 14px;
+                        margin-bottom: 16px;font-size:14px;
+                        font-family: PingFangSC-Medium;
+                        font-weight:400;
+                        color:rgba(3,3,4,1);
+                    }
+                }
+            }
+            .footerOneR{
+                width: 320px ;height: 112px;
+                margin-left: 40px;
+                display: flex;
+                .download{
+                    width: 82px ;height: 80px;
+                    .photo{
+                        width: 60px;height: 60px;
+                        margin-left: 11px;margin-bottom: 10px;
+                        background-image: url(../footerPhoto/icon_yejiao_kehuduanxiazai.png);
+                        background-size: 60px 60px;
+                    }
+                    .word{
+                        width: 82px;height: 14px;
+                        text-align: center;color: rgb(34, 34, 34);
+                        font-family: PingFangSC-Medium;
+                        font-size: 14px;
+                        
+                    }
+                }
+                .weibo{
+                    width: 82px ;height: 80px;
+                    .photo{
+                        width: 60px;height: 60px;
+                        margin-left: 11px;margin-bottom: 10px;
+                        background-image: url(../footerPhoto/weibo.png);
+                        background-size: 60px 60px;
+                    }
+                    .word{
+                        width: 82px;height: 14px;
+                        text-align: center;color: rgb(34, 34, 34);
+                        font-family: PingFangSC-Medium;
+                        font-size: 14px;
+                        
+                    }
+                }
+                .weixin{
+                    width: 82px ;height: 80px;
+                    .photo{
+                        width: 60px;height: 60px;
+                        margin-left: 11px;margin-bottom: 10px;
+                        background-image: url(../footerPhoto/weixin.png);
+                        background-size: 60px 60px;
+                    }
+                    .word{
+                        width: 82px;height: 14px;
+                        text-align: center;color: rgb(34, 34, 34);
+                        font-family: PingFangSC-Medium;
+                        font-size: 14px;
+                        
+                    }
+                }
+            }
+            
+        }
+    }
+}
+.footerTwo{
+    width: 1162px ;height: 327px-152px+12px;
+    display: flex;
+    .photo{
+        width: 100px;
+        margin-right: 18px;
+        .photo1{
+            width: 100px;height: 80px;
+            background-image: url(../footerPhoto/index.png);
+            background-size: 100px 120px;
+        }
+        .photo2{
+            width: 100px;height: 40px;
+            background-image: url(../footerPhoto/TIM图片20191212144859.png);
+            background-size: 100px 40px;
+            margin-bottom: 5px;
+        }
+        .photo3{
+            width: 100px;height: 40px;
+            background-image: url(../footerPhoto/TIM图片20191212144905.png);
+            background-size: 100px 40px;
+            // margin-bottom: 5px;
+        }
+    }
+    .word{
+        width: 1162px-118px;height: 175px;font-size:14px;
+        font-family:SimHei;
+        font-weight:400;
+        color:rgba(160,167,179,1);
+        .one{
+            margin-bottom: 10px;
+            span{
+                color: #0D68CF;
+            }
+        }
+        .two{
+            display: flex;
+            margin-bottom: 13px;
+            span{
+                color: #0D68CF;
+            }
+        }
+        
+    }
+}
+.tips{
+    width: 360px;height: 14px;
+    margin-bottom: 22px;font-size:14px;
+    font-family: PingFangSC-Medium;
+    font-weight:bold;
+    color:rgba(157,161,175,1);
+  
+}
+.sphoto1{
+    width: 16px;height: 16px;
+    background-image: url(../footerPhoto/TIM图片20191212144916.jpg);
+    background-size: 16px 16px;
+    margin-right: 3px;
+}
+.sphoto2{
+    width: 20px;height: 20px;
+    background-image: url(../footerPhoto/TIM图片20191212144920.jpg);
+    background-size: 20px 20px;
+    // margin-right: 3px;
+}
+.sphoto3{
+    width: 16px;height: 16px;
+    background-image: url(../footerPhoto/TIM图片20191212144911.jpg);
+    background-size: 16px 16px;
+}

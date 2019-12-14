@@ -1,0 +1,322 @@
+@charset "UTF-8";
+.headingTop {
+  width: 341px;
+  height: 95px;
+  display: flex;
+}
+
+.headingTop .headingTopImg {
+  width: 97px;
+  height: 95px;
+  background-size: 97px 95px;
+  background-image: url(../photoes/头像.png);
+  margin-left: 12px;
+  margin-right: 22px;
+}
+
+.headingTop .headingTopR {
+  margin-top: 18px;
+}
+
+.headingTop .headingTopR .ITS {
+  display: flex;
+  font-size: 14px;
+  font-family: Microsoft YaHei;
+  font-weight: 300;
+  color: #717171;
+  margin-bottom: 21px;
+}
+
+.headingTop .headingTopR .ITS span {
+  font-size: 18px;
+  font-family: Microsoft YaHei;
+  font-weight: 300;
+  color: #fb7299;
+  margin-right: 17px;
+}
+
+.headingTop .headingTopR .ITS .envelope {
+  width: 17px;
+  margin-top: 5px;
+  height: 13px;
+  background-size: 17px 13px;
+  background-image: url(../photoes/私信.png);
+}
+
+.headingTop .headingTopR .introduction {
+  font-size: 14px;
+  font-family: Microsoft YaHei;
+  font-weight: 300;
+  color: #999999;
+}
+
+.button {
+  width: 341px;
+  margin-top: 24px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.button .charge {
+  margin-right: 12px;
+  width: 119px;
+  height: 42px;
+  background: white;
+  border: 1px solid #fb7299;
+  border-radius: 3px;
+  font-size: 18px;
+  font-family: Microsoft YaHei;
+  font-weight: 300;
+  color: #fb7299;
+  line-height: 42px;
+  text-align: center;
+}
+
+.button .attention {
+  text-align: center;
+  width: 205px;
+  height: 42px;
+  background: #00a1d6;
+  border-radius: 3px;
+  font-size: 18px;
+  font-family: Calisto MT;
+  font-weight: 400;
+  color: #fafafa;
+  line-height: 42px;
+}
+
+.danmuList {
+  width: 275px;
+  height: 56px;
+  padding-right: 33px;
+  padding-left: 33px;
+  background: #eeeeee;
+  border-radius: 3px;
+  font-size: 18px;
+  font-family: Microsoft YaHei;
+  font-weight: 300;
+  color: black;
+  line-height: 56px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.danmuList div {
+  display: flex;
+}
+
+.danmuList .sandian {
+  margin-top: 22px;
+  margin-left: 14px;
+  width: 4px;
+  height: 16px;
+  background-image: url(../photoes/省略.png);
+  background-size: 4px 16px;
+  display: flex;
+}
+
+.shiping {
+  width: 341px;
+  background: #eeeeee;
+}
+
+.shiping .sanhang {
+  margin-top: 22px;
+  margin-left: 14px;
+  width: 17px;
+  height: 15px;
+  background-image: url(../photoes/列表.png);
+  background-size: 17px 15px;
+  display: flex;
+}
+
+.shiping .P1 {
+  margin-left: 10px;
+  width: 324px;
+  height: 35px;
+  background: white;
+  border-radius: 5px;
+  display: flex;
+}
+
+.shiping .P1 .bofangBlue {
+  width: 10px;
+  height: 14x;
+  background-image: url(../photoes/播放蓝色.png);
+  background-size: 10px 14px;
+  margin-top: 10px;
+  margin-left: 13px;
+  margin-right: 16px;
+  background-repeat: no-repeat;
+}
+
+.shiping .P1 span {
+  line-height: 35px;
+  font-size: 16px;
+  font-family: Microsoft YaHei;
+  font-weight: 300;
+  color: #00a1d6;
+}
+
+.shiping .P2 {
+  width: 320px;
+  margin-left: 21px;
+  height: 52px;
+  line-height: 52px;
+  font-size: 16px;
+  font-family: Microsoft YaHei;
+  font-weight: 300;
+  color: #3a3a3a;
+}
+
+.foure {
+  width: 313px;
+  padding: 0px 13px 0px 13px;
+  height: 124px;
+  margin-top: 17px;
+  background: white;
+  box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.14);
+  display: flex;
+  justify-content: space-between;
+}
+
+.foure .photoes {
+  width: 45px;
+  height: 45px;
+  margin-top: 18px;
+  background-size: 45px 45px;
+}
+
+.foure .num {
+  margin-top: 23px;
+  font-size: 22px;
+  font-family: Microsoft YaHei;
+  color: #757575;
+}
+
+#zan {
+  background-image: url(../photoes/赞.png);
+}
+
+#toubi {
+  background-image: url(../photoes/投币.png);
+}
+
+#shoucang {
+  background-image: url(../photoes/收藏.png);
+}
+
+#zhuanfa {
+  background-image: url(../photoes/转发.png);
+}
+
+.keji {
+  margin-top: 16px;
+  margin-bottom: 26px;
+  display: flex;
+}
+
+.keji .kejiList {
+  text-align: center;
+  width: 110px;
+  height: 41px;
+  background: #fb7299;
+  box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.35);
+  border-radius: 2px;
+  font-size: 20px;
+  font-family: Microsoft YaHei;
+  font-weight: bold;
+  color: white;
+  line-height: 41px;
+}
+
+.keji .tuijian {
+  text-align: center;
+  width: 110px;
+  height: 41px;
+  background: white;
+  box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.05);
+  border-radius: 2px;
+  font-size: 20px;
+  font-family: Microsoft YaHei;
+  font-weight: bold;
+  color: #757575;
+  line-height: 41px;
+}
+
+.wuliuqi {
+  margin-top: 17px;
+  display: flex;
+}
+
+.wuliuqi .wuliuqiPhoto {
+  width: 156px;
+  height: 91px;
+  margin-right: 14px;
+  background-size: 156px 91px;
+  background-image: url(../photoes/刺客伍六七.png);
+}
+
+.wuliuqi .h6 {
+  margin-bottom: 13px;
+  height: 35px;
+  font-size: 14px;
+  font-family: Microsoft YaHei;
+  font-weight: 400;
+  color: #2d2d2d;
+}
+
+.wuliuqi .name {
+  margin-bottom: 7px;
+  font-size: 12px;
+  font-family: Microsoft YaHei;
+  font-weight: 300;
+  color: #757575;
+}
+
+.wuliuqi .bottom {
+  display: flex;
+  font-size: 12px;
+  font-family: Microsoft YaHei;
+  font-weight: 300;
+  color: #757575;
+}
+
+.wuliuqi .bottom .fangkuai {
+  text-align: center;
+  width: 28px;
+  height: 16px;
+  font-size: 14px;
+  font-family: Microsoft YaHei;
+  font-weight: bold;
+  color: white;
+  margin-left: 26px;
+  line-height: 16px;
+}
+
+#yellow {
+  background: #fff45c;
+}
+
+#green {
+  background: #cce198;
+}
+
+#gray {
+  background: #8c97cb;
+}
+
+.more {
+  margin-top: 13px;
+  text-align: center;
+  width: 339px;
+  height: 46px;
+  background: gainsboro;
+  border-radius: 2px;
+  font-size: 16px;
+  font-family: Microsoft YaHei;
+  font-weight: 300;
+  color: #2d2d2d;
+  line-height: 46px;
+}

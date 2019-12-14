@@ -1,0 +1,391 @@
+@charset "UTF-8";
+.container {
+  width: 1288px;
+  margin: auto;
+  margin-top: 75px;
+  display: flex;
+}
+
+.container .left {
+  width: 937px;
+  margin-right: 10px;
+}
+
+.container .right {
+  width: 341px;
+}
+
+.screen {
+  width: 937px;
+  height: 584px;
+  background-color: #000000;
+}
+
+.screen .photo {
+  width: 933px;
+  height: 526px;
+  margin: 5px 0px 0px 3px;
+  background-image: url(../photoes/播放窗口.png);
+  background-size: 933px 584px;
+}
+
+.screen .line {
+  margin: auto;
+  margin-top: 3px;
+  width: 915px;
+  height: 1px;
+  background: #cccccc;
+}
+
+.screen .progress {
+  width: 933px;
+  display: flex;
+}
+
+.screen .progress .start {
+  width: 15px;
+  height: 21px;
+  background-image: url(../photoes/播放.png);
+  background-size: 15px 21px;
+  margin: 14px 0px 0px 23px;
+}
+
+.screen .progress .next {
+  width: 20px;
+  height: 21px;
+  background-image: url(../photoes/下一集.png);
+  background-size: 20px 21px;
+  margin: 14px 30px 0px 27px;
+}
+
+.screen .progress .time {
+  width: 300px;
+  height: 48px;
+  font-size: 16px;
+  font-family: Microsoft YaHei;
+  font-weight: bold;
+  color: #cccccc;
+  line-height: 48px;
+}
+
+.danmu {
+  width: 937px;
+  height: 58px;
+  box-shadow: 0px 0px 1px 1px #eeeeee;
+  display: flex;
+  align-items: center;
+}
+
+.danmu .word {
+  height: 58px;
+  font-size: 14px;
+  font-family: Microsoft YaHei;
+  font-weight: 400;
+  line-height: 58px;
+  margin: 0px 118px 0px 23px;
+}
+
+.danmu .switch {
+  width: 36px;
+  height: 23px;
+  margin-right: 26px;
+  background-image: url(../photoes/弹幕开关.png);
+  background-size: 36px 23px;
+}
+
+.danmu .setting {
+  width: 27px;
+  height: 23px;
+  margin-right: 26px;
+  background-image: url(../photoes/弹幕设置.png);
+  background-size: 27px 23px;
+}
+
+.danmu .input {
+  width: 461px;
+  height: 36px;
+  background-color: #eeeeee;
+  border: none;
+  display: flex;
+  align-items: center;
+}
+
+.danmu .input .A {
+  width: 17px;
+  height: 21px;
+  margin-left: 10px;
+  background-image: url(../photoes/字体设置.png);
+  background-size: 17px 21px;
+}
+
+.danmu .input .inputword {
+  height: 36px;
+  line-height: 36px;
+  margin-left: 294px;
+  font-size: 14px;
+  font-family: Microsoft YaHei;
+  font-weight: bold;
+  color: #757575;
+}
+
+.danmu .input .send {
+  border: none;
+  width: 69px;
+  height: 36px;
+  background: #00a1d6;
+  border-radius: 2px;
+  font-size: 14px;
+  font-family: Microsoft YaHei;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  line-height: 36px;
+}
+
+.property {
+  width: 925px;
+  margin-top: 23px;
+  margin-bottom: 47px;
+}
+
+.property .proTitle {
+  display: flex;
+  height: 28px;
+  align-items: center;
+}
+
+.property .proTitle span {
+  display: block;
+  font-size: 26px;
+  font-family: Microsoft YaHei;
+  font-weight: bold;
+  color: #5c5c5c;
+  margin-right: 30px;
+  line-height: 28px;
+}
+
+.property .proTitle .ouc {
+  width: 62px;
+  height: 26px;
+  margin-right: 9px;
+  background: #eeeeee;
+  border-radius: 13px;
+  font-size: 14px;
+  font-family: Microsoft YaHei;
+  font-weight: bold;
+  color: #757575;
+  text-align: center;
+  line-height: 26px;
+}
+
+.property .proTitle .Cyuyan {
+  width: 70px;
+  height: 26px;
+  margin-right: 14px;
+  background: #eeeeee;
+  border-radius: 13px;
+  font-size: 14px;
+  font-family: Microsoft YaHei;
+  font-weight: bold;
+  color: #757575;
+  text-align: center;
+  line-height: 26px;
+}
+
+.property .proTitle .jia {
+  width: 26px;
+  height: 26px;
+  margin-right: 358px;
+  background: #eeeeee;
+  border-radius: 50%;
+  font-size: 14px;
+  font-family: Microsoft YaHei;
+  font-weight: bold;
+  color: #757575;
+  text-align: center;
+  line-height: 26px;
+}
+
+.property .proTitle .gao {
+  height: 28px;
+  line-height: 28px;
+  font-size: 12px;
+  font-family: Microsoft YaHei;
+  font-weight: bold;
+  color: #757575;
+  margin-right: 10px;
+}
+
+.property .proTitle .dian {
+  width: 3px;
+  height: 15px;
+  background-size: 3px 15px;
+  background-image: url(../photoes/省略.png);
+}
+
+.property .proContent {
+  margin-top: 18px;
+  width: 925px;
+  font-size: 16px;
+  font-family: Microsoft YaHei;
+  font-weight: bold;
+  color: #5c5c5c;
+}
+
+.property .proFootera {
+  width: 925px;
+  font-size: 15px;
+  height: 15px;
+  font-family: Microsoft YaHei;
+  font-weight: bold;
+  color: #2d2d2d;
+  display: flex;
+  justify-content: space-between;
+  line-height: 15px;
+}
+
+.property .proFooterb {
+  width: 925px;
+  font-size: 16px;
+  font-family: Microsoft YaHei;
+  font-weight: bold;
+  color: #c7c7c7;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 18px;
+}
+
+.property .proFooterb .jiaoyu {
+  margin-right: 31px;
+}
+
+.Comment {
+  width: 915px;
+  padding-left: 10px;
+  font-size: 22px;
+  font-family: Microsoft YaHei;
+  font-weight: bold;
+  color: #5c5c5c;
+}
+
+.lineOne {
+  width: 937px;
+  height: 2px;
+  margin-top: 9px;
+  background: #757575;
+}
+
+.arrange {
+  width: 925px;
+  font-size: 16px;
+  font-family: Microsoft YaHei;
+  font-weight: 400;
+  color: #2d2d2d;
+  margin-top: 16px;
+  text-align: right;
+}
+
+.arrange span {
+  color: #00a1d6;
+}
+
+.comment {
+  width: 894px;
+  margin-top: 44px;
+  margin-left: 26px;
+}
+
+.comment .userOne {
+  width: 894px;
+}
+
+.comment .userOne .userOneFirst {
+  width: 894px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.comment .userOne .userOneFirst .headImg {
+  width: 110px;
+  height: 110px;
+  background-image: url(../photoes/头像.png);
+  background-size: 110px 110px;
+}
+
+.comment .userOne .userOneFirst textarea {
+  width: 733px;
+  height: 75px;
+  background: #eeeeee;
+  border: 1px solid gainsboro;
+  border-radius: 5px;
+  font-size: 15px;
+  font-family: Microsoft YaHei;
+  font-weight: 300;
+  color: #757575;
+  padding: 15px;
+}
+
+.comment .userOne .userOneSecond {
+  width: 765px;
+  margin-left: 129px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.comment .userOne .userOneSecond .expression {
+  width: 78px;
+  height: 43px;
+  background: white;
+  border: 1px solid gainsboro;
+  border-radius: 5px;
+  font-size: 16px;
+  font-family: Microsoft YaHei;
+  font-weight: bold;
+  line-height: 43px;
+  color: #757575;
+  display: flex;
+}
+
+.comment .userOne .userOneSecond .expression .xiaolian {
+  width: 22px;
+  height: 22px;
+  margin: 10px 7px 10px 8px;
+  background-image: url(../photoes/表情.png);
+  background-size: 22px 22px;
+}
+
+.comment .userOne .userOneSecond .sending {
+  width: 144px;
+  height: 43px;
+  background: #00a1d6;
+  border-radius: 5px;
+  font-size: 16px;
+  font-family: Microsoft YaHei;
+  font-weight: 400;
+  color: white;
+  line-height: 43px;
+  text-align: center;
+}
+
+.comment .sendtime {
+  width: 884px;
+  font-size: 14px;
+  font-family: Microsoft YaHei;
+  font-weight: 300;
+  color: #757575;
+  margin-top: 13px;
+  text-align: right;
+}
+
+.comment .sendtime span {
+  color: #FF00A1D6;
+}
+
+.comment .lineTwo {
+  width: 765px;
+  margin-top: 25px;
+  margin-left: 129px;
+  height: 2px;
+  background: gainsboro;
+}

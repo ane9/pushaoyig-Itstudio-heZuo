@@ -1,0 +1,237 @@
+.headingTop{
+    width: 341px;height: 95px;
+    display: flex;
+    .headingTopImg{
+        width: 97px;height: 95px;
+        background-size: 97px 95px;
+        background-image: url(../photoes/头像.png);
+        margin-left: 12px;margin-right: 22px;
+    }
+    .headingTopR{
+        margin-top: 18px;
+        .ITS{
+            display: flex;font-size:14px;
+            font-family:Microsoft YaHei;
+            font-weight:300;
+            color:rgba(113,113,113,1);
+            margin-bottom: 21px;
+            span{
+                font-size:18px;
+                font-family:Microsoft YaHei;
+                font-weight:300;
+                color:rgba(251,114,153,1);
+                margin-right: 17px;
+            }
+            .envelope{
+                width: 17px;margin-top: 5px;
+                height: 13px;background-size: 17px 13px;
+                background-image: url(../photoes/私信.png)
+        }
+    }
+    .introduction{
+        font-size:14px;
+        font-family:Microsoft YaHei;
+        font-weight:300;
+        color:rgba(153,153,153,1);
+    }
+}
+}
+.button{
+    width: 341px;
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-between;
+    .charge{
+        margin-right: 12px;width:119px;
+        height:42px;
+        background:rgba(255,255,255,1);
+        border:1px solid rgba(251,114,153,1);
+        border-radius:3px;font-size:18px;
+        font-family:Microsoft YaHei;
+        font-weight:300;
+        color:rgba(251,114,153,1);
+        line-height: 42px;text-align: center;
+    }
+    .attention{
+        text-align: center;width:205px;
+        height:42px;
+        background:rgba(0,161,214,1);
+        border-radius:3px;font-size:18px;
+        font-family:Calisto MT;
+        font-weight:400;
+        color:rgba(250,250,250,1);
+        line-height: 42px;
+    }
+}
+.danmuList{
+    width: 341px-66px;height: 56px;padding-right: 33px;
+    padding-left: 33px;
+    background:#eeeeee;
+    border-radius:3px;
+    font-size:18px;
+    font-family:Microsoft YaHei;
+    font-weight:300;
+    color:black;
+    line-height: 56px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    div{
+        display: flex;
+    }
+    .sandian{
+        margin-top: 22px;margin-left: 14px;
+        width: 4px ;height: 16px;
+        background-image: url(../photoes/省略.png);
+        background-size: 4px 16px;
+        display: flex;
+    }
+}
+.shiping{
+    width: 341px;
+    background:#eeeeee;
+    .sanhang{
+        margin-top: 22px;margin-left: 14px;
+        width: 17px ;height: 15px;
+        background-image: url(../photoes/列表.png);
+        background-size: 17px 15px;
+        display: flex;
+    }
+    .P1{
+        margin-left: 10px;width:324px;
+        height:35px;
+        background:rgba(255,255,255,1);
+        border-radius:5px;
+        display: flex;
+        .bofangBlue{
+            width: 10px ;height: 14x;
+            background-image: url(../photoes/播放蓝色.png);
+            background-size: 10px 14px;
+            margin-top: 10px;margin-left: 13px;
+            margin-right: 16px;
+            background-repeat: no-repeat;
+        }
+        span{
+            line-height: 35px;font-size:16px;
+            font-family:Microsoft YaHei;
+            font-weight:300;
+            color:rgba(0,161,214,1);
+        }
+    }
+    .P2{
+        width: 320px;margin-left: 21px;
+        height: 52px;line-height: 52px;font-size:16px;
+        font-family:Microsoft YaHei;
+        font-weight:300;
+        color:rgba(58,58,58,1);
+
+    }
+}
+.foure{
+    width:339px-26px;padding: 0px 13px 0px 13px;
+    height:124px;margin-top: 17px;
+    background:rgba(255,255,255,1);
+    box-shadow:0px 0px 7px 0px rgba(0, 0, 0, 0.14);
+    display: flex;
+    justify-content: space-between;
+    .photoes{
+        width: 45px;height: 45px;margin-top: 18px;
+        background-size: 45px 45px;
+    }
+    .num{
+        margin-top: 23px;font-size:22px;
+        font-family:Microsoft YaHei;
+        // font-weight:bold;
+        color:rgba(117,117,117,1);
+    }
+}
+#zan{
+    background-image: url(../photoes/赞.png);
+}#toubi{
+    background-image: url(../photoes/投币.png);
+}#shoucang{
+    background-image: url(../photoes/收藏.png);
+}#zhuanfa{
+    background-image: url(../photoes/转发.png);
+}
+.keji{
+    margin-top: 16px;
+    margin-bottom: 26px;
+    display: flex;
+    .kejiList{
+        text-align: center;width:110px;
+        height:41px;
+        background:rgba(251,114,153,1);
+        box-shadow:0px 0px 7px 0px rgba(0, 0, 0, 0.35);
+        border-radius:2px;font-size:20px;
+        font-family:Microsoft YaHei;
+        font-weight:bold;
+        color:rgba(255,255,255,1);
+        line-height: 41px;
+    }
+    .tuijian{
+        text-align: center;width:110px;
+        height:41px;
+        background:rgba(255,255,255,1);
+        box-shadow:0px 0px 7px 0px rgba(0, 0, 0, 0.05);
+        border-radius:2px;font-size:20px;
+        font-family:Microsoft YaHei;
+        font-weight:bold;
+        color:rgba(117,117,117,1);
+        line-height: 41px;
+    }
+}
+.wuliuqi{
+    margin-top: 17px;
+    display: flex;
+    .wuliuqiPhoto{
+        width: 156px;height: 91px;margin-right: 14px;
+        background-size: 156px 91px;
+        background-image: url(../photoes/刺客伍六七.png);
+    }
+    .h6{
+        margin-bottom: 13px;
+        // width:150px;
+        height:35px;
+        font-size:14px;
+        font-family:Microsoft YaHei;
+        font-weight:400;
+        color:rgba(45,45,45,1);        
+    }
+    .name{
+        margin-bottom: 7px;font-size:12px;
+        font-family:Microsoft YaHei;
+        font-weight:300;
+        color:rgba(117,117,117,1);
+    }
+    .bottom{
+        display: flex;font-size:12px;
+        font-family:Microsoft YaHei;
+        font-weight:300;
+        color:rgba(117,117,117,1);
+        .fangkuai{
+            text-align: center;width:28px;
+            height:16px;
+            ;font-size:14px;
+            font-family:Microsoft YaHei;
+            font-weight:bold;
+            color:rgba(255,255,255,1);       
+            margin-left: 26px;
+            line-height: 16px;
+        }
+    }
+}
+#yellow{background:rgba(255,244,92,1)}
+#green{background:rgba(204,225,152,1);}
+#gray{background:rgba(140,151,203,1);}
+.more{
+    margin-top: 13px;
+    text-align: center;width:339px;
+    height:46px;
+    background:rgba(220,220,220,1);
+    border-radius:2px;font-size:16px;
+    font-family:Microsoft YaHei;
+    font-weight:300;
+    color:rgba(45,45,45,1);
+    line-height: 46px;
+}

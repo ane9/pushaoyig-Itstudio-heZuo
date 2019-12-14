@@ -1,0 +1,485 @@
+.container{
+    width: 937px+10px+341px;
+    margin: auto;
+    margin-top: 128px-53px;
+    display: flex;
+    .left{
+        width: 937px;
+        margin-right: 10px;
+    }
+    .right{
+        width: 341px;
+    }
+}
+.screen{
+    width: 937px;height: 584px;
+    background-color: #000000;
+    .photo{
+        width: 933px;height: 526px;
+        margin: 5px 0px 0px 3px;
+        background-image: url(../photoes/播放窗口.png);
+        background-size: 933px 584px;
+    }
+    .line{
+        margin: auto;margin-top: 3px;width:915px;
+        height:1px;
+        background:rgba(204,204,204,1);
+    }
+    .progress{
+        width: 933px;
+        display: flex;
+        .start{
+            width: 15px;height: 21px;
+            background-image: url(../photoes/播放.png);
+            background-size: 15px 21px;
+            margin:14px 0px 0px 23px;
+        }
+        .next{
+            width: 20px;height: 21px; 
+            background-image: url(../photoes/下一集.png);
+            background-size: 20px 21px;
+            margin:14px 30px 0px 27px;
+        }
+        .time{
+            width: 300px;height: 48px;font-size:16px;
+            font-family:Microsoft YaHei;
+            font-weight:bold;
+            color:rgba(204,204,204,1);
+            line-height: 48px;
+        }
+    }
+}
+.danmu{
+    width: 937px;height: 58px;
+    box-shadow: 0px 0px 1px 1px rgba(238,238,238,1);
+    display: flex;
+    align-items: center;
+    .word{
+        height: 58px;font-size:14px;
+        font-family:Microsoft YaHei;
+        font-weight:400;line-height: 58px;
+        margin: 0px 118px 0px 23px;
+    }
+    .switch{
+        width: 36px;height: 23px;
+        margin-right: 26px;
+        background-image: url(../photoes/弹幕开关.png);
+        background-size: 36px 23px; 
+    }
+    .setting{
+        width: 27px;height: 23px;
+        margin-right: 26px;
+        background-image: url(../photoes/弹幕设置.png);
+        background-size: 27px 23px; 
+    }
+    .input{
+        width: 461px;height: 36px;
+        background-color:rgba(238,238,238,1);;
+        border: none;
+        display: flex;
+        align-items: center;
+        .A{
+            width: 17px;height: 21px;margin-left: 10px;
+            background-image: url(../photoes/字体设置.png);
+            background-size: 17px 21px; 
+        }
+        .inputword{
+            height: 36px;line-height: 36px;
+            margin-left: 294px;font-size:14px;
+            font-family:Microsoft YaHei;
+            font-weight:bold;
+            color:rgba(117,117,117,1);
+        }
+        .send{
+            border: none;width:69px;
+            height:36px;
+            background:rgba(0,161,214,1);
+            border-radius:2px;font-size:14px;
+            font-family:Microsoft YaHei;
+            font-weight:bold;
+            color:rgba(255,255,255,1);
+            text-align: center;
+            line-height: 36px;
+        }
+    }
+}
+.property{
+    width: 925px;
+    // height: 186px;
+    margin-top: 23px;margin-bottom: 47px;
+    .proTitle{
+        display: flex;height: 28px;
+        align-items: center;
+        span{
+            display: block;font-size:26px;
+            font-family:Microsoft YaHei;
+            font-weight:bold;
+            color:rgba(92,92,92,1);
+            margin-right: 30px;line-height: 28px;
+        }
+        .ouc{
+            width: 62px;height: 26px;
+            margin-right: 9px;background:rgba(238,238,238,1);
+            border-radius:13px;font-size:14px;
+            font-family:Microsoft YaHei;
+            font-weight:bold;
+            color:rgba(117,117,117,1);
+            text-align: center;
+            line-height: 26px;
+        }
+        .Cyuyan{
+            width: 70px;height: 26px;
+            margin-right: 14px;background:rgba(238,238,238,1);
+            border-radius:13px;font-size:14px;
+            font-family:Microsoft YaHei;
+            font-weight:bold;
+            color:rgba(117,117,117,1);
+            text-align: center;
+            line-height: 26px;
+        }
+        .jia{
+            width: 26px;height: 26px;
+            margin-right: 358px;background:rgba(238,238,238,1);
+            border-radius:50%;font-size:14px;
+            font-family:Microsoft YaHei;
+            font-weight:bold;
+            color:rgba(117,117,117,1);
+            text-align: center;
+            line-height: 26px;
+        }
+        .gao{
+            height: 28px;line-height: 28px;font-size:12px;
+            font-family:Microsoft YaHei;
+            font-weight:bold;
+            color:rgba(117,117,117,1);
+            margin-right: 10px;
+        }
+        .dian{
+            width: 3px ;height: 15px;
+            background-size: 3px 15px;
+            background-image: url(../photoes/省略.png);
+        }
+    }
+    .proContent{
+        margin-top: 18px;
+        width: 925px;
+        // height: 93px;
+        font-size:16px;
+        font-family:Microsoft YaHei;
+        // font-weight:bold;
+        font-weight: 500;
+        color:rgba(92,92,92,1);
+    }
+    .proFootera{
+        width: 925px;font-size:15px;height: 15px;
+        font-family:Microsoft YaHei;
+        font-weight:bold;
+        color:rgba(45,45,45,1);
+        display: flex;
+        justify-content: space-between;
+        line-height: 15px;
+    }
+    .proFooterb{
+        width: 925px;font-size:14px;
+        font-family:Microsoft YaHei;
+        font-weight:500;
+        color:rgba(199,199,199,1);
+        display: flex;
+        justify-content: space-between;
+        margin-top: 18px;
+        .jiaoyu{
+            margin-right: 31px;
+        }
+    }
+}
+.Comment{
+    width: 915px;padding-left: 10px;font-size:22px;
+    font-family:Microsoft YaHei;
+    font-weight:bold;
+    color:rgba(92,92,92,1);
+
+}
+.lineOne{
+    width: 937px;height:2px;
+    margin-top: 9px;
+    background:rgba(117,117,117,1);
+}
+.arrange{
+    width: 925px;font-size:16px;
+    font-family:Microsoft YaHei;
+    font-weight:400;
+    color:rgba(45,45,45,1);margin-top: 16px;
+    text-align: right;
+    span{
+        color:rgba(0,161,214,1);
+    }
+}
+.comment{
+    width: 894px;
+    margin-top: 44px;margin-left: 26px;
+    .userOne{
+        width: 894px;margin-bottom:25px;
+        .userOneFirst{
+            width: 894px;
+            display: flex;
+            justify-content: space-between;
+            .headImg{
+                width: 110px;height: 110px;
+                background-image: url(../photoes/头像.png);
+                background-size: 110px 110px;
+            }
+            textarea{
+                width:763px-15*2px;
+                height:105px-15*2px;
+                background:rgba(238,238,238,1);
+                border:1px solid rgba(220,220,220,1);
+                border-radius:5px;font-size:15px;
+                font-family:Microsoft YaHei;
+                font-weight:300;
+                color:rgba(117,117,117,1);
+                padding: 15px;
+            }
+        }
+        .userOneSecond{
+            width: 765px;
+            margin-left: 129px;
+            margin-top: 10px;
+            display: flex;
+            justify-content: space-between;
+            .expression{
+                width: 78px;height: 43px;background:rgba(255,255,255,1);
+                border:1px solid rgba(220,220,220,1);
+                border-radius:5px;font-size:16px;
+                    font-family:Microsoft YaHei;
+                    font-weight:bold;line-height: 43px;
+                    color:rgba(117,117,117,1);
+                    display: flex;
+                .xiaolian{
+                    width: 22px;height: 22px;
+                    margin: 10px 7px 10px 8px;
+                    background-image: url(../photoes/表情.png);
+                    background-size: 22px 22px;
+                    
+                }
+            }
+            .sending{
+                width:144px;
+                height:43px;
+                background:rgba(0,161,214,1);
+                border-radius:5px;font-size:16px;
+                font-family:Microsoft YaHei;
+                font-weight:400;
+                color:rgba(255,255,255,1);
+                line-height: 43px;text-align: center;
+            }
+        }
+    }
+    .sendtime{
+        width: 884px;font-size:14px;
+        font-family:Microsoft YaHei;
+        font-weight:300;
+        color:rgba(117,117,117,1);
+        margin-top: 13px;text-align: right;
+        .sendtimea{
+            margin-right: 20px;
+            span{
+            color:  #00A1D6FF;
+        }}
+    }
+    .lineTwo{
+        width: 765px;
+        // margin-top: 25px;
+        margin-left: 129px;height:2px;
+        background:rgba(220,220,220,1);
+    }
+    .userTwo{
+        width: 894px;margin-top: 17px;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 41px;
+        .headImg{
+            width: 110px;
+            height: 110px;
+            background-repeat: no-repeat;
+            background-image: url(../photoes/头像.png);
+            background-size: 110px 110px;
+            margin-bottom: 4px;
+        }
+        .guanzhu{
+            margin-top: 4px;width:80px;
+            height:36px;
+            background:rgba(0,161,214,1);
+            border-radius:2px;font-size:17px;
+            font-family:Microsoft YaHei;
+            font-weight:bold;
+            color:rgba(255,255,255,1);
+            text-align: center;
+            line-height: 36px;
+            margin: auto;
+        }
+        .detail{
+            width: 765px;
+            .userLevel{
+                display: flex;
+                
+                .up{
+                    margin-right: 18px;width:48px;
+                    height:29px;
+                    background:rgba(255,255,255,1);
+                    border:1px solid rgba(251,114,153,1);
+                    border-radius:2px;
+                    text-align: center;line-height: 29px;font-size:17px;
+                    font-family:Microsoft YaHei;
+                    font-weight:bold;
+                    color:rgba(251,114,153,1);
+                }
+                .level{
+                    line-height: 29px;font-size:16px;
+                    font-family:Microsoft YaHei;
+                    font-weight:bold;
+                    color:rgba(251,114,153,1);
+                    span{
+                        margin-left: 8px;font-size:16px;
+                        font-family:Eras Bold ITC;
+                        font-weight:bold;
+                        color:rgba(243,81,81,1);
+                    }
+                }
+            }
+            .comWord{
+                width: 765px;
+                margin-top: 16px;font-size:16px;
+                font-family:Microsoft YaHei;
+                // font-weight:bold;
+                font-weight: 400px;
+                color:rgba(112,112,112,1);
+                span{
+                    display: block;
+                }
+            }
+            
+        }
+    }
+}
+.userThree{
+    width: 894px-207px;margin-top: 11px;
+    margin-left: 207px;
+    display: flex;font-size:16px;
+    font-family:Microsoft YaHei;
+    font-weight: 400px;
+    color:rgba(112,112,112,1);
+    .a{
+        margin-right: 13px;
+    }
+    .b{
+        font-size:16px;
+        font-family:Eras Bold ITC;
+        font-weight:bold;
+        color:rgba(164,235,236,1);
+        margin-right: 13px;
+        line-height: 24px;
+    }
+    .c{
+        font-size:16px;
+        font-family:Eras Bold ITC;
+        font-weight:bold;
+        color:rgba(155,159,251,1);
+        margin-right: 13px;
+        line-height: 24px;
+    }
+}
+.userthreeTime{
+    margin-left: 277px;
+}
+.comTime{
+    margin-top: 5px;font-size:14px;
+    font-family:Microsoft YaHei;
+    font-weight:500;
+    color:rgba(199,199,199,1);
+    display: flex;
+    line-height: 21px;
+    span{
+        margin-right: 26px;
+    }
+    .good{
+        margin-right: 6px;
+        width: 21px;height: 21px;
+        background-image: url(../photoes/zan.png);
+        background-size: 21px 21px;
+    }
+    .bed{
+        margin-left:4px;margin-right: 47px;
+        width: 21px;height: 21px;
+        background-image: url(../photoes/cai.png);
+        background-size: 21px 21px;
+    }
+}
+.huifu{
+    width: 894px-207px-55px;margin-top: 33px;
+    margin-left: 207px-55px;
+    margin-bottom: 21px;font-size:16px;
+    font-family:Microsoft YaHei;
+    font-weight:500;
+    color:rgba(103,103,103,1);
+    span{
+        margin-left: 51px;
+    }
+}
+.userFoure{
+    width: 894px;margin-bottom:74px;
+    margin-top: 71px;
+    .userOneFirst{
+        width: 894px;
+        display: flex;
+        justify-content: space-between;
+        .headImg{
+            width: 110px;height: 110px;
+            background-image: url(../photoes/头像.png);
+            background-size: 110px 110px;
+        }
+        textarea{
+            width:763px-15*2px;
+            height:105px-15*2px;
+            background:rgba(238,238,238,1);
+            border:1px solid rgba(220,220,220,1);
+            border-radius:5px;font-size:15px;
+            font-family:Microsoft YaHei;
+            font-weight:300;
+            color:rgba(117,117,117,1);
+            padding: 15px;
+        }
+    }
+    .userOneSecond{
+        width: 765px;
+        margin-left: 129px;
+        margin-top: 10px;
+        display: flex;
+        justify-content: space-between;
+        .expression{
+            width: 78px;height: 43px;background:rgba(255,255,255,1);
+            border:1px solid rgba(220,220,220,1);
+            border-radius:5px;font-size:16px;
+                font-family:Microsoft YaHei;
+                font-weight:bold;line-height: 43px;
+                color:rgba(117,117,117,1);
+                display: flex;
+            .xiaolian{
+                width: 22px;height: 22px;
+                margin: 10px 7px 10px 8px;
+                background-image: url(../photoes/表情.png);
+                background-size: 22px 22px;
+                
+            }
+        }
+        .sending{
+            width:144px;
+            height:43px;
+            background:rgba(0,161,214,1);
+            border-radius:5px;font-size:16px;
+            font-family:Microsoft YaHei;
+            font-weight:400;
+            color:rgba(255,255,255,1);
+            line-height: 43px;text-align: center;
+        }
+    }
+}
