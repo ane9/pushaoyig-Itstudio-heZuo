@@ -1,0 +1,8 @@
+.Center{
+    width: 1281px;margin: auto;
+    display: flex;
+}
+.Container{
+    width: 100%;
+    background: #FFE8E1FF;
+}

@@ -1,0 +1,232 @@
+.Center{
+    width: 1281px;margin: auto;
+    display: flex;
+    
+}
+.Container{
+    width: 100%;padding-top: 43px;
+    background: #FFE8E1FF;
+}
+.left{
+    width: 764px;margin-right: 22px;
+}
+.video{
+    width: 764px;
+    background-color: white;
+    .myVideo{
+        width: 764px-81px;height: 84px;
+        padding-left: 30px;padding-right: 51px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size:34px;
+        font-family:Microsoft YaHei;
+        font-weight:400;
+        color:rgba(25,25,25,1);
+        line-height: 84px;
+    }
+    input{
+        width: 217px;padding: 0px 17px;
+        height: 40px;background:rgba(232,232,232,1);
+        border-radius: 500px;font-size:13px;
+        font-family:Microsoft YaHei;
+        font-weight:400;
+        color:rgba(164,164,164,1);
+        line-height: 40px;
+        border: none;
+    }
+    .Sousuo{
+        display: flex;
+    }
+    .sousuo{
+        width: 21px;height: 23px;
+        background-image: url(../photo/sousuo.png);
+        background-size: 21px 23px;
+        position: relative;
+        top: 10px;left: -28px;
+    }
+    .vidLine{
+        margin: auto;width:738px;
+        height:2px;
+        background:rgba(216,216,216,1);
+        
+    }
+   
+}
+.myWork{
+        width: 764px;
+        .myTitle{
+            width: 746px-29px-44px;height: 81px;
+            padding-left: 29px;padding-right: 44px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size:33px;
+            font-family:Microsoft YaHei;
+            font-weight:400;
+            color:rgba(25,25,25,1);
+            .sendmore{
+                width:129px;
+                height:60px;
+                border:5px solid rgba(234,104,162,1);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                .sendmores{
+                    text-align: center;width:114px;
+                    height:47px;
+                    background:rgba(244,244,244,1);
+                    border:3px solid rgba(234,104,162,1);
+                    border-radius:5px;font-size:18px;
+                    font-family:Microsoft YaHei;
+                    font-weight:400;
+                    color:rgba(234,104,162,1);
+                    line-height: 47px;
+                    
+                }
+            }
+        }
+        .myPhoto1{
+            display: flex;
+            .border{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width:375px;
+                height:308px;
+                background:rgba(255,255,255,1);
+                border:1px solid rgba(160,160,160,1);
+                border-radius:5px;
+                margin-left: 8px;
+                margin-right: 34px;
+                .myphotos{
+                    background-size: 354px 282px;
+                    width:354px;
+                    height:282px;
+                    background-image: url(../photo/代表作大图.png);
+                }
+            }
+            .myright{
+                padding-top: 113px;width: 315px;
+                h3{
+                    margin-bottom: 10px;font-size:18px;
+                    font-family:Microsoft YaHei;
+                    font-weight:400;
+                    color:rgba(23,23,23,1);
+                }
+                h6{
+                    font-size:12px;
+                    font-family:Microsoft YaHei;
+                    font-weight:400;
+                    color:rgba(160,160,160,1);
+                }
+                p{
+                    margin-bottom: 23px;font-size:8px;
+                    font-family:Microsoft YaHei;
+                    font-weight:400;
+                    color:rgba(244,90,141,1);
+                }
+                h4{font-size:13px;
+                    font-family:Microsoft YaHei;
+                    font-weight:400;
+                    color:rgba(23,23,23,1);}
+            }
+        }
+        .myPhoto2{
+            margin: 2px 0px 40px 8px;
+            display: flex;
+            .myphotoL{
+                display: flex;
+               justify-content: space-around;
+               align-items: center;
+               width:379px;
+               height:68px;
+               background:rgba(23,23,23,1);
+               opacity:0.8;
+               margin-right: 16px;
+            }
+            .myphotosmall{
+                background-size:55px 58px ;width:55px;
+                height:58px;
+            }
+        }
+    }
+#small1{
+    background-size:59px 60px ;width:59px;
+                height:60px;
+    border:4px solid rgba(18,150,219,1);
+    background-image: url(../photo/代表作小图1.png);
+}
+#small2{
+    background-image: url(../photo/代表作小图2.png);
+}
+#small3{
+    background-image: url(../photo/代表作小图3.png);
+}#small4{
+    background-image: url(../photo/代表作小图4.png);
+}#small5{
+    background-image: url(../photo/代表作小图5.png);
+}#small6{
+    background-image: url(../photo/代表作小图6.png);
+}
+.LookMore{
+    text-align: center;width:67px;
+    height:24px;
+    background:rgba(244,90,141,1);
+    border-radius:5px;
+    line-height: 24px;  font-size:13px;
+    font-family:Microsoft YaHei;
+    font-weight:400;
+    color:rgba(255,255,255,1);  
+}
+#top{
+    margin-top: 43px;
+}
+.allVideoTitle{
+    height: 58px;width: 764px-30px-21px;
+    margin-left: 30px;margin-left: 21px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;font-size:33px;
+    font-family:Microsoft YaHei;
+    font-weight:400;
+    color:rgba(25,25,25,1);
+    span{font-size:14px;
+        font-family:Microsoft YaHei;
+        font-weight:400;
+        color:rgba(164,164,164,1);}
+    .allVTiileC{font-size:16px;
+        color:rgba(23,23,23,1);
+        width: 221px;
+        display: flex;
+        justify-content: space-between;
+        .pinck{
+            border-bottom: 3px solid rgba(244,90,141,1)
+            }
+    }
+}
+.column{
+    margin-top: 64px;
+    background-color: white;
+    .columnTitle{
+        width: 764px-60px;height: 81px;
+        margin-left: 30px;margin-right: 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;font-size:34px;
+        font-family:Microsoft YaHei;
+        font-weight:400;
+        color:rgba(25,25,25,1);
+        span{font-size:22px;
+            font-family:Microsoft YaHei;
+            font-weight:400;
+            color:rgba(164,164,164,1);}
+    }
+    .columnLine{
+        margin: auto;width:738px;
+        height:2px;
+        background:rgba(216,216,216,1);
+        
+    }
+    .columnMain{}
+}

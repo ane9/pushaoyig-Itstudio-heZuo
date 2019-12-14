@@ -1,0 +1,20 @@
+.Top{
+    height: 533px;
+    background-image: url(../photo/背景图.png);
+    background-size: auto 533px;
+}
+.TopCenter{
+    // float: left;
+    width: 160px;height: 261px;
+    margin: auto;
+    position: relative;
+    top:225px;
+    // margin-top: 225px;
+    
+    .CenterImg{
+        background: white;
+        width: 160px;height:160px;
+        border-radius: 50%;
+        border: 2px solid #9DCBFDFF;
+    }
+}

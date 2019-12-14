@@ -1,0 +1,131 @@
+.Right{
+    width: 495px;
+}
+.announce{
+    background-color: white;
+    .annTitle{
+        width: 495px-16px-26px;height: 82px;
+        display: flex;
+        justify-content: space-between;
+        margin-left: 26px;margin-right: 16px;
+        line-height: 82px;font-size:43px;
+        font-family:Microsoft YaHei;
+        font-weight:400;
+        color:rgba(31,31,31,1);
+        .annButton{display: flex;}
+        .annButton1{
+            text-align: center;width:110px;
+            height:67px;
+            background:rgba(244,90,141,1);
+            border-radius:0px 0px 5px 5px;
+            line-height: 67px;font-size:22px;
+            font-family:Microsoft YaHei;
+            font-weight:400;
+            color:rgba(255,255,255,1);       
+        }
+        .annButton2{
+            margin-top: 16px;margin-left: 23px;
+            text-align: center;width:61px;
+            height:33px;
+            border-radius:5px;
+            background:rgba(244,90,141,1);font-size:14px;
+            font-family:Microsoft YaHei;
+            font-weight:400;
+            color:rgba(255,255,255,1);
+            line-height: 33px;
+        }
+    }
+    
+    .annP{
+        width: 495PX;
+        // height: 239px;
+        padding-bottom: 73px;
+        background-color: white;
+    }
+    .annphoto{
+        width: 400px;height: 297px;
+        background-size: 400px 297px;
+        background-image: url(../photo/公告图片.png);
+        margin:28px 29px 0px 66px;
+    }
+}
+.annLine{
+    margin: auto;width:486px;
+    height:2px;
+    background:rgba(216,216,216,1);
+}
+.album{
+    background-color: white;
+    margin-top: 56px;
+    .alPhoto{
+        width: 495px-7px;height: 224px;
+        padding-left: 7px;
+        display: flex;
+        align-items: center;
+        .alPhotos{
+            width:113px;
+            height:132px;
+            background-size: 133px 132px;
+            background-image: url(../photo/相册封面.png);
+        }
+    }
+}
+    .alTitle{
+        width: 495px-48px;height: 71px;
+        margin: 0px 24px 0px 24px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;font-size:33px;
+        font-family:Microsoft YaHei;
+        font-weight:400;
+        color:rgba(31,31,31,1);
+        line-height: 71px;
+        span{
+            font-size:16px;
+            font-family:Microsoft YaHei;
+            font-weight:400;
+            color:rgba(164,164,164,1);
+            line-height:42px;
+        }
+        .lookMore{
+            text-align: center;width:67px;
+            height:24px;
+            background-color: #F45A8DFF;
+            border-radius:5px;font-size:13px;
+            font-family:Microsoft YaHei;
+            font-weight:400;
+            color:rgba(255,255,255,1);
+            line-height: 24px;
+        }
+    }
+.favorites{
+    margin-top:42px ;
+    background-color: white;
+    .faPhoto{
+        width: 495px-26px;height: 234px-12px;
+        padding-top: 12px;padding-left: 26px;
+        .faPhotos{
+            width: 160px;height: 180px;
+            background-size: 160px 180px;
+            background-image: url(../photo/收藏夹封面.png);
+        }
+        .faDefault{
+            width: 160px;
+            display: flex;
+            justify-content: space-between;font-size:14px;
+            font-family:Microsoft YaHei;
+            font-weight:400;
+            color:rgba(31,31,31,1);
+            .public{
+                text-align: center;width:55px;
+                height:18px;
+                background:rgba(244,90,141,1);
+                border-radius:5px;
+                line-height: 18px;font-size:14px;
+                font-family:Microsoft YaHei;
+                font-weight:400;
+                color:rgba(255,255,255,1);
+            }
+        }
+    }
+}
