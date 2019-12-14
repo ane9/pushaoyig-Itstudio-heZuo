@@ -1,0 +1,94 @@
+
+.headingFirst{
+    width: 100%;
+    height: 53.3px;
+    position: relative;
+    top: 0px;
+    background-color: #FDE8EFFF;
+    .headingFirstOne{
+        height: 53.3px;
+        width: 1349px-25px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+    .headingFirstOnePhoto{
+        width: 26px;height: 24px;
+        background-image: url(../navigationPhoto/bilibili1.png);
+        background-size: 26px 24px;
+        margin: 0px 13px 0px 0px;
+    }
+    .headingFirstOneul{
+        width: 390px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        li{
+            // margin-right: 30px;
+            font-size:12px;
+            font-family:Microsoft YaHei;
+            font-weight:400;
+            color:rgba(27,27,27,1);
+            line-height: 41.3px;
+        }
+    }
+    input{
+        width: 281px;height: 26px;
+        margin: 0px 0px 0px 95px;font-size:9px;
+        font-family:Adobe Heiti Std;
+        font-weight:normal;
+        color:rgba(215,215,215,1);
+        border:rgba(215,215,215,1) solid 1px ;
+        border-radius: 2px;
+    }
+    .headingFirstInputPhoto{
+            width: 22px;height:22px;
+            background:rgba(251,114,152,1);
+            border:1px solid rgba(251,114,152,1);
+            border-radius:50%;
+            position: relative;
+            left: -11px;
+            // position: absolute;
+            // top: 15px;left: 59%;
+            background-image: url(../navigationPhoto/sousuo.png);
+            background-size: 22px 22px;
+        }
+        
+        .headingFirstThreePhoto{
+            width: 39px;height:39px;
+            background:rgba(255,255,255,1);
+            border:1px solid rgba(213, 213, 213, 1);
+            border-radius:50%;
+            background-image: url(../navigationPhoto/人头.png);
+            background-size: 39px 39px;
+            margin: 3px 18px 0px 180px;
+        }
+        .headingFirstTwoul{
+            width: 135px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            li{
+                font-size:12px;
+                font-family:Microsoft YaHei;
+                font-weight:400;
+                color:rgba(27,27,27,1);
+                line-height: 41.3px;
+            }
+        }
+    }
+}
+.navigationButton{
+    width: 100px;height: 57px;
+    background-color: #FB7298FF;
+    transform: skew(21deg);
+    margin-left: 7px;font-size:16px;
+    font-family:Microsoft YaHei;
+    font-weight:400;
+    color:rgba(255,255,255,1);
+    text-align: center;
+    line-height: 57px;
+    span{
+        display: block;
+        transform: skew(-21deg);
+    }
+}

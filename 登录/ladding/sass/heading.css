@@ -1,0 +1,270 @@
+.headingTwo {
+  height: 66px;
+  background: #FB7298;
+  z-index: 0;
+}
+
+.headingTwo .headingTwos {
+  width: 959px;
+  height: 66px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.headingTwo .headingTwoL {
+  width: 136.07px;
+  height: 61px;
+  margin-top: 2px;
+  background-image: url(../photoes/bilibili.png);
+  background-size: 136.07px 61px;
+}
+
+.headingTwo .headingTwoR {
+  width: 209.11px;
+  height: 61.03px;
+  margin-top: 5px;
+  background-image: url(../photoes/2233.png);
+  background-size: 209.11px 61.03px;
+}
+
+.headingThree {
+  height: 545.28px;
+  background: #B6364F;
+}
+
+.headingThree .headingThrees {
+  width: 994px;
+  height: 415px;
+  margin-top: 65px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.headingThree .headingThreeL {
+  width: 384.2px;
+  height: 347.18px;
+  margin-top: 118px;
+  background-image: url(../photoes/12.png);
+  background-size: 384.2px 347.18px;
+}
+
+.headingThree .headingThreeR {
+  width: 472px;
+  height: 415px;
+  background: white;
+  border-radius: 18px;
+  margin: 65px 0px 0px 0px;
+}
+
+.headingThree .headingThreeR .headingThreeROne {
+  width: 472px;
+  height: 52px;
+  border-bottom: #E4E3E3 solid 1px;
+}
+
+.headingThree .headingThreeR .headingThreeROne .headingThreeROneL {
+  width: 96px;
+  height: 33px;
+  float: left;
+  border-bottom: #FB7298 solid 3px;
+  margin: 16px 74px 0px 70px;
+  text-align: center;
+  font-size: 24px;
+  font-family: SimHei;
+  font-weight: 400;
+  color: #fb7298;
+}
+
+.headingThree .headingThreeR .headingThreeROne .headingThreeROneR {
+  float: right;
+  width: 169px;
+  height: 25px;
+  margin: 19px 0px 10px 0px;
+  border-left: #E4E3E3 solid 1px;
+  padding-left: 62px;
+  font-size: 24px;
+  font-family: SimHei;
+  font-weight: 400;
+  color: #010405;
+}
+
+.headingThree .headingThreeRtwo {
+  width: 266px;
+  height: 19px;
+  margin: 54px 0px 34px 84px;
+}
+
+.headingThree .headingThreeRzhanghao {
+  float: left;
+  width: 44px;
+  height: 19px;
+  margin: 0px 27px 0px 0px;
+  font-size: 22px;
+  font-family: SimHei;
+  font-weight: 400;
+  color: #060809;
+}
+
+.headingThree .headingThreeRzhanghaoLine {
+  width: 185px;
+  border-bottom: #E4E3E3 solid 1px;
+  margin-top: 23px;
+  float: left;
+}
+
+.headingThree .headingThreeRthree {
+  width: 366px;
+  height: 19px;
+  margin: 0px 0px 43px 84px;
+}
+
+.headingThree .headingThreeRmima {
+  float: left;
+  width: 44px;
+  height: 19px;
+  margin: 0px 27px 0px 0px;
+  font-size: 22px;
+  font-family: SimHei;
+  font-weight: 400;
+  color: #060809;
+}
+
+.headingThree .headingThreeRmimaLine {
+  width: 185px;
+  border-bottom: #E4E3E3 solid 1px;
+  margin-top: 23px;
+  float: left;
+}
+
+.headingThreeRfore {
+  width: 366px;
+  height: 11px;
+  margin: 0px 0px 13px 72px;
+  display: flex;
+}
+
+.headingThreeRfore .htrfa {
+  width: 4px;
+  height: 4px;
+  margin-right: 4px;
+  border: #595959  solid 3px;
+  border-radius: 5px;
+}
+
+.headingThreeRfore h6 {
+  line-height: 10px;
+  font-size: 10px;
+  font-family: SimHei;
+  margin-right: 13px;
+  color: #010405;
+}
+
+.headingThreeRfore p {
+  line-height: 10px;
+  font-size: 10px;
+  font-family: SimHei;
+  font-weight: 400;
+  color: #c0bfbe;
+  margin-right: 110px;
+}
+
+.headingThreeRfore a {
+  line-height: 10px;
+  font-size: 10px;
+  font-family: SimHei;
+  font-weight: 400;
+  text-decoration: underline;
+  color: #5fc9f1;
+  cursor: pointer;
+}
+
+.headingThreeRfive {
+  width: 366px;
+  height: 32px;
+  margin: 0px 0px 41px 70px;
+  display: flex;
+}
+
+.headingThreeRfive .buttonOne {
+  width: 158px;
+  height: 36px;
+  border: none;
+  background: #fb7298;
+  border-radius: 4px;
+  font-size: 20px;
+  font-weight: 400;
+  color: #fcfafa;
+  text-align: center;
+  line-height: 35px;
+  letter-spacing: 10px;
+  margin-right: 32px;
+}
+
+.headingThreeRfive .buttonTwo {
+  width: 158px;
+  height: 36px;
+  border: none;
+  background: #7BC9F0;
+  border-radius: 4px;
+  font-size: 20px;
+  font-weight: 400;
+  color: #fcfafa;
+  text-align: center;
+  line-height: 35px;
+  letter-spacing: 10px;
+}
+
+.headingThreeRsix {
+  width: 473PX;
+  height: 15PX;
+  display: flex;
+  font-size: 16px;
+  font-family: SimHei;
+  font-weight: 400;
+  color: #b0afaf;
+}
+
+.headingThreeRsix .headingThreeRsixS {
+  height: 7.5px;
+  border-bottom: 1px solid #A7A7A7;
+  width: 171px;
+  margin: 0px 10px 0px 7px;
+}
+
+.headingThreeRseven {
+  width: 345PX;
+  height: 55PX;
+  margin: 10px 0px 0px 70px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.headingThreeRseven .headingThreeRsevenS1 {
+  width: 52px;
+  height: 52px;
+  background-image: url(../photoes/weibo.png);
+  background-size: 52px 52px;
+}
+
+.headingThreeRseven .headingThreeRsevenS2 {
+  width: 52px;
+  height: 52px;
+  background-image: url(../photoes/youxiang.png);
+  background-size: 52px 52px;
+}
+
+.headingThreeRseven .headingThreeRsevenS3 {
+  width: 52px;
+  height: 52px;
+  background-image: url(../photoes/QQ1.png);
+  background-size: 52px 52px;
+}
+
+.headingThreeRseven .headingThreeRsevenS4 {
+  width: 52px;
+  height: 52px;
+  background-image: url(../photoes/weixin.png);
+  background-size: 52px 52px;
+}

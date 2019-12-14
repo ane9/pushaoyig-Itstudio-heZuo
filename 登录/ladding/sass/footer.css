@@ -1,0 +1,233 @@
+@charset "UTF-8";
+.footer {
+  height: 339px;
+  background: #F7F9FB;
+  padding-top: 40px;
+}
+
+.footer .footercontain {
+  width: 1162px;
+  height: 327px;
+  margin: auto;
+}
+
+.footer .footercontain .footerOne {
+  width: 1160px;
+  height: 112px;
+  margin-bottom: 40px;
+  display: flex;
+}
+
+.footer .footercontain .footerOne .footerOneL {
+  width: 360PX;
+  height: 112PX;
+  padding-right: 40px;
+  border-right: 3px solid  #9B9EA7;
+}
+
+.footer .footercontain .footerOne .footerOneL ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.footer .footercontain .footerOne .footerOneL ul li {
+  width: 120px;
+  height: 14px;
+  margin-bottom: 16px;
+  font-size: 14px;
+  font-family: PingFangSC-Medium;
+  font-weight: 400;
+  color: #030304;
+}
+
+.footer .footercontain .footerOne .footerOneC {
+  width: 360PX;
+  height: 112PX;
+  padding-right: 40px;
+  margin-left: 40px;
+  border-right: 3px solid  #9B9EA7;
+}
+
+.footer .footercontain .footerOne .footerOneC ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.footer .footercontain .footerOne .footerOneC ul li {
+  width: 120px;
+  height: 14px;
+  margin-bottom: 16px;
+  font-size: 14px;
+  font-family: PingFangSC-Medium;
+  font-weight: 400;
+  color: #030304;
+}
+
+.footer .footercontain .footerOne .footerOneR {
+  width: 320px;
+  height: 112px;
+  margin-left: 40px;
+  display: flex;
+}
+
+.footer .footercontain .footerOne .footerOneR .download {
+  width: 82px;
+  height: 80px;
+}
+
+.footer .footercontain .footerOne .footerOneR .download .photo {
+  width: 60px;
+  height: 60px;
+  margin-left: 11px;
+  margin-bottom: 10px;
+  background-image: url(../footerPhoto/icon_yejiao_kehuduanxiazai.png);
+  background-size: 60px 60px;
+}
+
+.footer .footercontain .footerOne .footerOneR .download .word {
+  width: 82px;
+  height: 14px;
+  text-align: center;
+  color: #222222;
+  font-family: PingFangSC-Medium;
+  font-size: 14px;
+}
+
+.footer .footercontain .footerOne .footerOneR .weibo {
+  width: 82px;
+  height: 80px;
+}
+
+.footer .footercontain .footerOne .footerOneR .weibo .photo {
+  width: 60px;
+  height: 60px;
+  margin-left: 11px;
+  margin-bottom: 10px;
+  background-image: url(../footerPhoto/weibo.png);
+  background-size: 60px 60px;
+}
+
+.footer .footercontain .footerOne .footerOneR .weibo .word {
+  width: 82px;
+  height: 14px;
+  text-align: center;
+  color: #222222;
+  font-family: PingFangSC-Medium;
+  font-size: 14px;
+}
+
+.footer .footercontain .footerOne .footerOneR .weixin {
+  width: 82px;
+  height: 80px;
+}
+
+.footer .footercontain .footerOne .footerOneR .weixin .photo {
+  width: 60px;
+  height: 60px;
+  margin-left: 11px;
+  margin-bottom: 10px;
+  background-image: url(../footerPhoto/weixin.png);
+  background-size: 60px 60px;
+}
+
+.footer .footercontain .footerOne .footerOneR .weixin .word {
+  width: 82px;
+  height: 14px;
+  text-align: center;
+  color: #222222;
+  font-family: PingFangSC-Medium;
+  font-size: 14px;
+}
+
+.footerTwo {
+  width: 1162px;
+  height: 187px;
+  display: flex;
+}
+
+.footerTwo .photo {
+  width: 100px;
+  margin-right: 18px;
+}
+
+.footerTwo .photo .photo1 {
+  width: 100px;
+  height: 80px;
+  background-image: url(../footerPhoto/index.png);
+  background-size: 100px 120px;
+}
+
+.footerTwo .photo .photo2 {
+  width: 100px;
+  height: 40px;
+  background-image: url(../footerPhoto/TIM图片20191212144859.png);
+  background-size: 100px 40px;
+  margin-bottom: 5px;
+}
+
+.footerTwo .photo .photo3 {
+  width: 100px;
+  height: 40px;
+  background-image: url(../footerPhoto/TIM图片20191212144905.png);
+  background-size: 100px 40px;
+}
+
+.footerTwo .word {
+  width: 1044px;
+  height: 175px;
+  font-size: 14px;
+  font-family: SimHei;
+  font-weight: 400;
+  color: #a0a7b3;
+}
+
+.footerTwo .word .one {
+  margin-bottom: 10px;
+}
+
+.footerTwo .word .one span {
+  color: #0D68CF;
+}
+
+.footerTwo .word .two {
+  display: flex;
+  margin-bottom: 13px;
+}
+
+.footerTwo .word .two span {
+  color: #0D68CF;
+}
+
+.tips {
+  width: 360px;
+  height: 14px;
+  margin-bottom: 22px;
+  font-size: 14px;
+  font-family: PingFangSC-Medium;
+  font-weight: bold;
+  color: #9da1af;
+}
+
+.sphoto1 {
+  width: 16px;
+  height: 16px;
+  background-image: url(../footerPhoto/TIM图片20191212144916.jpg);
+  background-size: 16px 16px;
+  margin-right: 3px;
+}
+
+.sphoto2 {
+  width: 20px;
+  height: 20px;
+  background-image: url(../footerPhoto/TIM图片20191212144920.jpg);
+  background-size: 20px 20px;
+}
+
+.sphoto3 {
+  width: 16px;
+  height: 16px;
+  background-image: url(../footerPhoto/TIM图片20191212144911.jpg);
+  background-size: 16px 16px;
+}
